@@ -1,0 +1,158 @@
+{
+  "view" : 11,
+  "current-user": "kabir.khan",
+  "rank-custom-field-id" : 12311940,
+  "states" : [
+    {"name": "Backlog Pool"},
+    {"name": "Backlog P2"},
+    {"name": "Backlog P1"},
+    {"name": "Analysis Dev", "header":0},
+    {"name": "Analysis Handoff", "header":0},
+    {"name": "Analysis QA", "header":0},
+    {"name": "Dev TODO"}
+  ],
+  "backlog": 3,
+  "headers": ["Analysis"],
+  "assignees" : [
+
+    {
+      "key" : "other",
+      "email" : "another@example.com",
+      "avatar" : "https://static.jboss.org/developer/gravatar/ddb8426eafc8e3628d263af28aa13086?d=mm&s=32",
+      "name" : "Another Programmer"
+    },
+    {
+      "key" : "kabir.khan",
+      "email" : "kabir.khan@example.com",
+      "avatar" : "https://static.jboss.org/developer/gravatar/00aa85cb5ea8fd5882bab9765f40655e?d=mm&s=32",
+      "name" : "Kabir Khan"
+    }
+  ],
+  "components": ["Component One", "Component Two", "Component Three"],
+  "labels": ["Label One", "Label Two", "Label Three"],
+  "fix-versions" : ["1.0.0.Alpha", "1.0.0.Beta", "1.0.0.GA"],
+  "priorities" : [
+    {
+      "name" : "Blocker",
+      "colour" : "red"
+    },
+    {
+      "name" : "Major",
+      "colour" : "orange"
+    },
+    {
+      "name" : "Minor",
+      "colour" : "blue"
+    },
+    {
+      "name" : "Trivial",
+      "colour" : "green"
+    }
+  ],
+  "issue-types" : [
+    {
+      "name" : "Task",
+      "colour" : "yellowgreen"
+    },
+    {
+      "name" : "Story",
+      "colour" : "grey"
+    },
+    {
+      "name" : "Bug",
+      "colour" : "red"
+    },
+    {
+      "name" : "Epic",
+      "colour" : "blue"
+    }
+  ],
+  "custom": {
+    "User Custom Field": [
+      {
+        "key": "userA",
+        "value": "Another User"
+      },
+      {
+        "key": "userB",
+        "value": "Better User"
+      }
+    ],
+    "Version Custom Field": [
+      {
+        "key": "1.0.0.GA",
+        "value": "1.0.0.GA"
+      },
+      {
+        "key": "1.0.1.GA",
+        "value": "1.0.1.GA"
+      }
+    ]
+  },
+  "projects" : {
+    "main" : [
+      {
+        "code": "FEAT",
+        "colour" : "#4667CA",
+        "rank" : true,
+        "state-links" : {
+          "Backlog Pool" : "Backlog Pool",
+          "Backlog P2" : "Backlog P2",
+          "Backlog P1" : "Backlog P1",
+          "Analysis Dev" : "Analysis Dev",
+          "Analysis Handoff" : "Analysis Handoff",
+          "Analysis QA" : "Analysis QA",
+          "Dev TODO" : "Dev TODO"
+        },
+        "ranked": ["FEAT-1", "FEAT-2", "FEAT-3"]
+      }
+    ]
+  },
+  "issues" : {
+    "FEAT-1" : {
+      "key": "FEAT-1",
+      "state": 4,
+      "summary": "Issue number 1",
+      "priority": 0,
+      "type": 2,
+      "components": [0, 1],
+      "fix-versions": [0,1],
+      "labels": [0, 1],
+      "assignee": 1,
+      "custom": {"User Custom Field": 0, "Version Custom Field": 1}
+    },
+    "FEAT-2" : {
+      "key": "FEAT-2",
+      "state": 4,
+      "summary": "Issue number 2",
+      "priority": 1,
+      "type": 3,
+      "components": [1, 2],
+      "fix-versions": [1, 2],
+      "labels": [1, 2],
+      "custom": {"User Custom Field": 1, "Version Custom Field": 0}
+    },
+    "FEAT-3" : {
+      "key": "FEAT-3",
+      "state": 3,
+      "summary": "Issue number 3",
+      "priority": 2,
+      "type": 0
+    }
+  },
+  "blacklist" : {
+    "states": [
+      "No Such State", "Another Missing State"
+    ],
+    "priorities": [
+      "Critical"
+    ],
+    "issue-types": [
+      "Super Duper Urgent"
+    ],
+    "issues": [
+      "BAD-20",
+      "BAD-999"
+    ]
+  }
+}
