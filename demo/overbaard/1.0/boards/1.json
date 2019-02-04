@@ -18,7 +18,8 @@
       },
       {
         "name": "Dev In Progress",
-        "header": "Development"
+        "header": "Development",
+        "wip": 16
       },
       {
         "name": "Review",
