@@ -92,7 +92,7 @@
     },
     {
       "name" : "Minor",
-      "colour" : "yellow"
+      "colour" : "green"
     },
     {
       "name" : "Trivial",

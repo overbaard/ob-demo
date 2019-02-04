@@ -10,31 +10,38 @@
     "states": [
       {
         "name": "Backlog",
-        "backlog": true
+        "backlog": true,
+        "help": "Unordered issues."
       },
       {
         "name": "Kickoff",
-        "header": "Development"
+        "header": "Development",
+        "help": "Planning and information gathering."
       },
       {
         "name": "Dev In Progress",
         "header": "Development",
-        "wip": 16
+        "wip": 16,
+        "help": "Development is happening."
       },
       {
         "name": "Review",
-        "header": "Development"
+        "header": "Development",
+        "help": "A pull request has been opened, and is undergoing review."
       },
       {
         "name": "QA TODO",
-        "header": "QA"
+        "header": "QA",
+        "help": "The issue is part of a build ready for testing."
       },
       {
         "name": "QA In Progress",
-        "header": "QA"
+        "header": "QA",
+        "help": "The issue is being tested."
       },
       {
-        "name": "Verified"
+        "name": "Verified",
+        "help": "The feature has been verified. All is good!"
       }
     ],
     "priorities" : [
@@ -48,7 +55,7 @@
       },
       {
         "name" : "Minor",
-        "colour" : "yellow"
+        "colour" : "green"
       },
       {
         "name" : "Trivial",
