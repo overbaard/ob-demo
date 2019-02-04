@@ -1,0 +1,92 @@
+{
+  "id": 1,
+  "code": "DEMO",
+  "name": "Demo Board",
+  "edit": true,
+  "config": {
+    "name": "Demo Board",
+    "code": "DEMO",
+    "rank-custom-field-id": 10009,
+    "states": [
+      {
+        "name": "Backlog",
+        "backlog": true
+      },
+      {
+        "name": "Kickoff",
+        "header": "Development"
+      },
+      {
+        "name": "Dev In Progress",
+        "header": "Development"
+      },
+      {
+        "name": "Review",
+        "header": "Development"
+      },
+      {
+        "name": "QA TODO",
+        "header": "QA"
+      },
+      {
+        "name": "QA In Progress",
+        "header": "QA"
+      },
+      {
+        "name": "Verified"
+      }
+    ],
+    "priorities" : [
+      {
+        "name" : "Blocker",
+        "colour" : "red"
+      },
+      {
+        "name" : "Major",
+        "colour" : "orange"
+      },
+      {
+        "name" : "Minor",
+        "colour" : "yellow"
+      },
+      {
+        "name" : "Trivial",
+        "colour" : "grey"
+      }
+    ],
+    "issue-types" : [
+      {
+        "name" : "Feature",
+        "colour" : "#1d689c"
+      },
+      {
+        "name" : "Bug",
+        "colour" : "red"
+      },
+      {
+        "name" : "Task",
+        "colour" : "green"
+      },
+      {
+        "name" : "Story",
+        "colour" : "yellowgreen"
+      }
+    ],
+    "projects": [
+      {
+        "code": "DEMO",
+        "colour": "#1d689c",
+        "rank": true,
+        "state-links": {
+          "Backlog" : "Backlog",
+          "Kickoff" : "Kickoff",
+          "Dev In Progress" : "Dev In Progress",
+          "Review" : "Review",
+          "QA TODO" : "QA TODO",
+          "State Number 6" : "QA In Progress",
+          "Verified" : "Verified"
+        }
+      }
+    ]
+  }
+}
